@@ -10,7 +10,7 @@ output_dir = "recordings"
 os.makedirs(output_dir, exist_ok=True)
 
 CAMERA_INDEX = 1  # 0 = built-in webcam, 1 = Elgato or other external cam
-mirror_webcam = True
+mirror_webcam = False
 record_duration_seconds = None  # e.g. 10 to stop after 10s, or None to run until 'q'
 save_format = "mp4"
 fps = 20

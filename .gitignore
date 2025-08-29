@@ -1,1 +1,4 @@
-vidDownloads/ 
+# Ignore downloaded videos and outputs
+vidDownloads/
+recordings/
+analysis/*mp4

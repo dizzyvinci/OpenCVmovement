@@ -2,3 +2,5 @@
 vidDownloads/
 recordings/
 analysis/*mp4
+# Ignore large video outputs
+recordings/*.mp4
